@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class gameManager: ObservableObject {
+class GameManager: ObservableObject {
     var questions = [Question]()
     @Published private(set) var index = 0
     @Published private(set) var playingGame = false
