@@ -15,9 +15,9 @@
 		D86B15D22B4EF14900236130 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B15D12B4EF14900236130 /* CustomButton.swift */; };
 		D86B15D42B4EF22D00236130 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B15D32B4EF22D00236130 /* ProgressBar.swift */; };
 		D86B15D62B4EF2DD00236130 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B15D52B4EF2DD00236130 /* AnswerRow.swift */; };
-		D86B15D82B5040A200236130 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B15D72B5040A200236130 /* QuestionView.swift */; };
 		D86B15DA2B5044FB00236130 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B15D92B5044FB00236130 /* Data.swift */; };
 		D86B15DE2B582B7800236130 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B15DD2B582B7800236130 /* GameManager.swift */; };
+		D8CA7DE22B5AD1EB00AFA8EE /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CA7DE12B5AD1EB00AFA8EE /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +30,9 @@
 		D86B15D12B4EF14900236130 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		D86B15D32B4EF22D00236130 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		D86B15D52B4EF2DD00236130 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
-		D86B15D72B5040A200236130 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		D86B15D92B5044FB00236130 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D86B15DD2B582B7800236130 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		D8CA7DE12B5AD1EB00AFA8EE /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D86B15C02B4D9E5D00236130 /* ContentView.swift */,
-				D86B15D72B5040A200236130 /* QuestionView.swift */,
+				D8CA7DE12B5AD1EB00AFA8EE /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,10 +186,10 @@
 				D86B15DE2B582B7800236130 /* GameManager.swift in Sources */,
 				D86B15D02B4DA59900236130 /* Question.swift in Sources */,
 				D86B15C12B4D9E5D00236130 /* ContentView.swift in Sources */,
-				D86B15D82B5040A200236130 /* QuestionView.swift in Sources */,
 				D86B15D42B4EF22D00236130 /* ProgressBar.swift in Sources */,
 				D86B15D62B4EF2DD00236130 /* AnswerRow.swift in Sources */,
 				D86B15BF2B4D9E5D00236130 /* Country_Flag_GameApp.swift in Sources */,
+				D8CA7DE22B5AD1EB00AFA8EE /* QuestionView.swift in Sources */,
 				D86B15DA2B5044FB00236130 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

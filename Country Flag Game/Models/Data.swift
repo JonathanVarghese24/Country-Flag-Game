@@ -11,6 +11,9 @@ struct Data {
     let countries = [
         "Angola",
         "Austria",
+        "Brazil",
+        "Canada",
+        "Chicago",
         "China",
         "England",
         "Estonia",
@@ -27,8 +30,10 @@ struct Data {
         "South Africa",
         "Spain",
         "Sweden",
+        "Texas",
         "Ukraine",
-        "United States"
+        "United States",
+        "Wales"
     ]
 }
 

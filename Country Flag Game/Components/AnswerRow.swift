@@ -31,7 +31,7 @@ struct AnswerRow: View {
         .onTapGesture {
             if !gameManager.answerSelected {
                 isSelected = true
-                gameManager.selectedAnswer(answer: answer)
+                gameManager.selectAnswer(answer: answer)
             }
         }
     }
